@@ -2,7 +2,7 @@
 (function(){
 
     function Start(){
-        console.log(`%c App Startted...`, 
+        console.log(`%c App Started...`, 
         "font-size: 20px; color: blue; font-weight: bold");
  }
 
