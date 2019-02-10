@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson3",
+  "name": "comp308-w2019-lesson4",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,10 +15,11 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "mongoose": "^5.4.11",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.7"
   },
-  "description": "Express Generator Demo",
+  "description": "Mongo and Mongoose Demo",
   "main": "server.js",
   "author": "Kamal",
   "license": "ISC",
@@ -26,10 +27,19 @@
     "@types/body-parser": "^1.17.0",
     "@types/cookie-parser": "^1.4.1",
     "@types/express": "^4.16.1",
+    "@types/mongoose": "^5.3.12",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.21",
     "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamalKaur936/COMP308-W2019-Lesson4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KamalKaur936/COMP308-W2019-Lesson4/issues"
+  },
+  "homepage": "https://github.com/KamalKaur936/COMP308-W2019-Lesson4#readme"
 }
