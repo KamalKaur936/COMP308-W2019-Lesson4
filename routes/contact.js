@@ -14,14 +14,14 @@ router.get('/',(req, res, next) =>{
         else{
             console.log(contactList);
 
-            /*
-            res.render('contact/index', {
-                title: 'ContactList',
+          
+           res.render('contact/index', {
+                title: 'Contact List',
                 contactList: contactList
             });
-            */
+            
         }
-    })
-})
+    });
+});
 
 module.exports = router;
